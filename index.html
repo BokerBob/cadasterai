@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadaster.ai – Premium Cadastral Domain For Sale</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cadaster.ai – premium domain for sale, ideal for real estate mapping, land registry, GIS platforms." />
+  <meta name="keywords" content="cadaster, cadastral map, land registry, real estate GIS, terrain data, plot visualization, domain for sale" />
+  <meta name="robots" content="index, follow" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #444;
+      overflow: hidden;
+      height: 100vh;
+      width: 100vw;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      background: #fff;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      box-sizing: border-box;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      color: #444;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .scene {
+      width: 100%;
+      max-width: 400px;
+      height: 260px;
+      perspective: 1000px;
+      backface-visibility: hidden;
+      transform-style: preserve-3d;
+      margin-bottom: 1.5rem;
+    }
+
+    .camera {
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      animation: orbit 10s linear infinite;
+      transform-origin: center center;
+      backface-visibility: hidden;
+      image-rendering: optimizeQuality;
+    }
+
+    .ground {
+      width: 302px;
+      height: 302px;
+      background:
+        repeating-linear-gradient(0deg, #ccc, #ccc 1px, transparent 1px, transparent 50px),
+        repeating-linear-gradient(90deg, #ccc, #ccc 1px, transparent 1px, transparent 50px);
+      transform: rotateX(90deg) translateZ(0);
+      transform-style: preserve-3d;
+      margin: 0 auto;
+      position: relative;
+      backface-visibility: hidden;
+      image-rendering: optimizeQuality;
+    }
+
+    .plot {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      background: rgba(0, 123, 255, 0.3);
+      border: 2px dashed #007bff;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 15px);
+      backface-visibility: hidden;
+      filter: drop-shadow(0px 0px 30px #005ec4);
+      image-rendering: optimizeQuality;
+    }
+
+    @keyframes orbit {
+      0%   { transform: rotateX(-20deg) rotateY(0deg); }
+      100% { transform: rotateX(-20deg) rotateY(360deg); }
+    }
+
+    .contact-button {
+      display: inline-block;
+      background: #007bff;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .contact-button:hover {
+      background: #005ec4;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      footer {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Cadaster.ai</h1>
+    <p class="tagline">Premium cadastral domain – ideal for real estate, GIS, or land mapping applications.</p>
+
+    <div class="scene" aria-label="3D rotating ground with plot">
+      <div class="camera">
+        <div class="ground">
+          <div class="plot" role="img" aria-label="Land plot"></div>
+        </div>
+      </div>
+    </div>
+
+    <a class="contact-button" href="https://sedo.com/search/details/?domain=cadaster.ai">
+      Buy on Sedo
+    </a>
+
+    <footer>
+      <div style="margin-top: 1rem; font-size: 0.75rem; text-align: center; line-height: 2rem;">
+        <a href="https://cadaster.io" style="color: #666; text-decoration: none; margin: 0 0.3rem;">cadaster.io</a> |
+        <a href="https://cadaster.ai" style="color: #666; text-decoration: none; margin: 0 0.3rem;">cadaster.ai</a> |
+        <a href="https://expeditions.ai" style="color: #666; text-decoration: none; margin: 0 0.3rem;">expeditions.ai</a> |
+        <a href="https://fixedwing.io" style="color: #666; text-decoration: none; margin: 0 0.3rem;">fixedwing.io</a> |
+        </br>
+        <a href="https://marscontracts.com" style="color: #666; text-decoration: none; margin: 0 0.3rem;">marscontracts.com</a> |
+        <a href="https://marsrent.com" style="color: #666; text-decoration: none; margin: 0 0.3rem;">marsrent.com</a> |
+        <a href="https://marsrents.com" style="color: #666; text-decoration: none; margin: 0 0.3rem;">marsrents.com</a> |
+        <a href="https://quadromaster.com" style="color: #666; text-decoration: none; margin: 0 0.3rem;">quadromaster.com</a> |
+        <a href="https://unit65.com" style="color: #666; text-decoration: none; margin: 0 0.3rem;">unit65.com</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
